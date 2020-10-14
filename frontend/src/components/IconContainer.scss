@@ -1,18 +1,21 @@
 .icon-title{
   font-size: 1.2rem;
-  margin: 1em;
+  margin: 2em 0em 0em 3em; 
+  font-weight: bolder;
 }
 .icon-wrapper{
   display: flex;
   justify-content: center;
-  margin:0.5em;
+  margin:0em;
 }
 
-
 @media only screen and (max-width: 1024px) {
+  .icon-title{
+    margin: 2em 0em 0em 1.5em; 
+  }
   .icon-wrapper{
     *{
-      margin:0.5em 0.3em;
+      margin:0.5em 0.25em;
     }
   }
 }
