@@ -39,6 +39,13 @@ const socials = [{
 
 const Navigation = (props) => (
   <nav className="nav-container">
+    <div className="line-container">
+      <div className="nav-line"></div>
+    </div>
+    <div className="left-container">
+        <img src={props.icon}/>
+        <div className="site-title">{props.name}</div>
+      </div>
     <div className="link-container">
        {
         tabs.map((tab, index) =>(
