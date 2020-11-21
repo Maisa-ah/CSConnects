@@ -22,7 +22,6 @@ import {useRouter} from '../util/router.js'
 import Axios from 'axios';
 
 
-
 function HomePage() {
   const router = useRouter();
 
