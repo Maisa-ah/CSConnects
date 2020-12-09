@@ -15,9 +15,6 @@ const Section=(props)=>(
       </div>
     </div>
     <img alt="woman working on her computer" className="section-img" src = {props.img}/>
-    {/* <div className="section-img" style={{
-      '--image': `url(${props.img})`
-    }}></div> */}
     <div className="section-bottom">
       <div className="section-title">
         {props.mission_title}
