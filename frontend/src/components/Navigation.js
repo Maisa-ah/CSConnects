@@ -112,12 +112,12 @@ function Navigation(props) {
     <div className="line-container">
       <div className="nav-line"></div>
     </div>
-    <a href="/" className="home-icon">
     <div className="left-container" onClick={props.onclick}>
-        <img className="title-icon" src={props.icon}/>
-        <div className="site-title">{props.name}</div>
+          <a href="/" className="home-icon">
+          <img className="title-icon" src={props.icon}/>
+          <div className="site-title">{props.name}</div>
+        </a>
     </div>
-    </a>
     <a href="javascript:void(0);" className="icon" onClick={() => Burger()}>
       <img src={props.burger}/>
     </a>

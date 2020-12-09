@@ -1,7 +1,6 @@
 @import '../styles/themes.scss';
 .nav-container{
   font-size: 1rem;
-  // margin: 1em 0em;
   margin: 1em;
   position: relative;
   white-space: nowrap;
@@ -15,7 +14,7 @@
       width: 100%;
     }
   }
-  .left-container{
+  .home-icon{
     // position: absolute;
     height:3em;
     display: flex;
@@ -51,7 +50,6 @@
   color: $lightPurple;
 }
 .nav-routes.selected{
-  // color: $black;
   color: $purple;
   font-weight: bolder;
 }
@@ -65,16 +63,17 @@
 }
 .home-icon, .home-icon:hover{
   text-decoration: none;
+  max-width: 10em;
+  min-width: 5em;
 }
 @media only screen and (max-width: 1024px) {
   .title-icon{
     display:none;
   }
-  .nav-container>.left-container>.site-title{
-    // margin: 0.5em 0em;
+  .nav-container>.left-container>.home-icon>.site-title{
     font-weight: bold;
   }
-  .nav-container .left-container{
+  .nav-container .home-icon{
     margin: 0.5em 0em;
   }
   .nav-container .link-container{
@@ -102,8 +101,8 @@
     background-color: $bgcolor;
     z-index: 2;
   }
-  .nav-container.responsive .left-container{
-    margin: 0.8em 0em;
+  .nav-container.responsive .home-icon{
+    margin: 0.5em 0em;
   }
   .nav-container.responsive div{
     float: none;
