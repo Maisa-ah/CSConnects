@@ -1,10 +1,10 @@
 @import '../styles/themes.scss';
 
 .cp-container{
-  margin: 1em;
+  margin: 2em 1em;
   .cp-flex{
     display: flex;
-    margin: 2em;
+    margin: 1em;
 
     .club-logo{
       margin-right: 1em;
@@ -15,7 +15,8 @@
       border-radius:15%;
     }
     .club-info{
-      min-width: 20em;
+      width: 100%;
+      margin: 0em 1em;
     }
   }
   hr{
@@ -34,10 +35,16 @@
 
 
 @media only screen and (max-width: 1024px) {
+  .cp-container{
   .cp-flex{
     flex-direction: column;
+    .club-info{
+      margin: 1em 0em;
+    }
   }
   .club-logo{
     margin-bottom: 1em;
   }
+}
+
 }

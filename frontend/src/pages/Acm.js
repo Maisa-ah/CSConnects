@@ -25,7 +25,7 @@ function AcmPage() {
         time="We meet every Thursday at 5:30pm to 7:30pm in the JLAB (1000J in the North building)."
         />
         <LinkContainer>
-        <a href="https://www.hunteracm.org/?fbclid=IwAR3yCVYLpi4iG7PtPSsi0gRmYnJaY-yXvdydEZoVE8ifmWz_85PfvFI_6tg" rel="noreferrer" target="_blank"><Icon icon={website}/></a>
+          <a href="https://www.hunteracm.org/?fbclid=IwAR3yCVYLpi4iG7PtPSsi0gRmYnJaY-yXvdydEZoVE8ifmWz_85PfvFI_6tg" rel="noreferrer" target="_blank"><Icon icon={website}/></a>
           <a href="https://www.facebook.com/hunteracm" rel="noreferrer" target="_blank"><Icon icon={facebook}/></a>
           <a href="https://hunteracm.slack.com/" rel="noreferrer" target="_blank"><Icon icon={slack}/></a>
           <a href="https://github.com/hunteracm" rel="noreferrer" target="_blank"><Icon icon={github}/></a>

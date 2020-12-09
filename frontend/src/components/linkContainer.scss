@@ -1,12 +1,13 @@
 @import '../styles/themes.scss';
 
 .link-wrapper{
+  margin:1em;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   *{
     box-sizing: content-box;
     margin:0.5em;
-
     a{
       margin:5em;
     }
@@ -20,6 +21,8 @@
   .link-wrapper{
     *{
       margin:0em;
+      display:grid;
+      place-items: center;
       a{
         margin: 0.2em;
       }

@@ -19,12 +19,12 @@ function OscPage() {
       <div>
         <ClubPages club="Osc"
         image={osc}
-        des="We are a group of Open Source programmers dedicated to using code to make Hunter, and the world at large a better place."
-        des2="We’re a direct democracy bridging the gap between academia and the tech world."
+        des="Open source club is a network of university students and clubs who share the belief that open source software is the engine that powers innovation. We are a group of Open Source programmers dedicated to using code to make Hunter, and the world at large a better place."
+        des2="We are a place to learn, help others, and improve our community together. Our goals are to combat elitism, increase equitability and promote accessibility in computer coding and programming. To achieve these goals we will provide technical assistance for class, host technical and behavioral workshops and build, deploy and promote Open Source Software."
         time=""
         />
        <LinkContainer>
-        <a href="https://hunterosc.org/" rel="noreferrer" target="_blank"><Icon icon={website}/></a>
+          <a href="https://hunterosc.org/" rel="noreferrer" target="_blank"><Icon icon={website}/></a>
           <a href="https://www.facebook.com/HunterOSC" rel="noreferrer" target="_blank"><Icon icon={facebook}/></a>
           <a href="https://github.com/Hunter-Open-Source-Club" rel="noreferrer" target="_blank"><Icon icon={github}/></a>
         </LinkContainer>
